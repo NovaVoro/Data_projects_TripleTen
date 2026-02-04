@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/banner.png" alt="Video Game Sales Analysis Dashboard Banner" width="800">
+  <img src="images/banner.png" alt="Video Game Sales Analysis Dashboard Banner" height="400" width="400">
 </p>
 
 ### A Multi-Page Streamlit Application for Exploratory Data Analysis, Visualization, and Insights
