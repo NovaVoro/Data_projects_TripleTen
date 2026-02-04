@@ -63,49 +63,9 @@ The final model achieves a **Test RMSE under 48**, meeting the project requireme
 
 ---
 
-## 📊 **Screenshots & Demo**
+## 📊 **Screenshot**
 
 ![Sweet Lift Taxi Forcasting Example](images/example.png)
-
----
-
-## 📽 **Demo Video**
-
-_Add a link to a video or GIF demonstrating the app._
-
-Example:
-
-
----
-
-## 🎥 **GIF Demo Script**
-
-Use this script to record a clean, professional demo GIF:
-
-**Scene 1 — Streamlit Launch (2–3 seconds)**  
-- Show terminal  
-- Run: `python -m streamlit run streamlit_app.py`  
-- Browser window opens  
-
-**Scene 2 — Model Overview (3–4 seconds)**  
-- Scroll to RMSE table  
-- Highlight best model  
-
-**Scene 3 — Prediction (3–4 seconds)**  
-- Click “Predict next hour demand”  
-- Show prediction output  
-
-**Scene 4 — FastAPI Backend (3–4 seconds)**  
-- Show terminal running:  
-  `python -m uvicorn api:app --reload`  
-
-**Scene 5 — Static Web UI (3–4 seconds)**  
-- Open: `http://localhost:5500/static/index.html`  
-- Click “Predict”  
-- Show JSON response  
-
-**Scene 6 — Closing Frame (2 seconds)**  
-- Fade to project banner  
 
 ---
 
