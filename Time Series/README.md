@@ -86,10 +86,10 @@ The final model achieves a **Test RMSE under 48**, meeting the project requireme
 
 ### **Install dependencies**
 PowerShell:
-pip install -r requirements.txt
-python -m streamlit run streamlit_app.py
-python -m uvicorn api:app --reload
-python -m http.server 5500
+-pip install -r requirements.txt
+-python -m streamlit run streamlit_app.py
+-python -m uvicorn api:app --reload
+-python -m http.server 5500
 
 Then open:
 http://localhost:5500/static/index.html
