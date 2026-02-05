@@ -154,6 +154,15 @@ The final Streamlit page:
 
 ---
 
-## 📜 License
+## 🧠 Author
 
-This project is for educational and portfolio purposes.
+Developed by **Travis Daily**  
+Founder & Creative Director — NovaVoro Interactive  
+
+Data science, analytics, and interactive systems design.
+
+---
+
+## 📄 License
+
+This project is intended for educational and portfolio use.
