@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def compute_recovery(feed, conc, tail, df):
     F = df[feed].astype(float)
     C = df[conc].astype(float)
@@ -12,6 +13,7 @@ def compute_recovery(feed, conc, tail, df):
         rec = np.where(den != 0, num / den, np.nan)
 
     return rec
+
 
 def smape(y_true, y_pred):
     y_true = np.asarray(y_true)

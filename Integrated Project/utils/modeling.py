@@ -1,13 +1,14 @@
 import numpy as np
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import LinearRegression
-from sklearn.model_selection import KFold, GridSearchCV
+from sklearn.model_selection import KFold
 from sklearn.pipeline import Pipeline
 from utils.metrics import smape
 
+
 def train_models(X_train, y_r, y_f, preprocessor):
     cv = KFold(n_splits=5, shuffle=True, random_state=42)
-    scorer = lambda est, X, y: -smape(y, est.predict(X))
+    scorer = lambda est, X, y: -smape(y, est.predict(X))  # currently unused
 
     rf = RandomForestRegressor(
         n_estimators=200,

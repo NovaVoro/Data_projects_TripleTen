@@ -2,7 +2,6 @@
 from utils.data_loader import load_datasets
 from utils.preprocessing import prepare_training_data
 from utils.modeling import train_models
-from utils.metrics import smape
 
 st.title("🧪 Model Training & Selection")
 

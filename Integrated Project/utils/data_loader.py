@@ -1,8 +1,9 @@
 import pandas as pd
 
-TRAIN = "datasets/gold_recovery_train.csv"
-TEST = "datasets/gold_recovery_test.csv"
-FULL = "datasets/gold_recovery_full.csv"
+TRAIN = "data/gold_recovery_train.csv"
+TEST = "data/gold_recovery_test.csv"
+FULL = "data/gold_recovery_full.csv"
+
 
 def load_datasets():
     train = pd.read_csv(TRAIN)

@@ -6,6 +6,7 @@ from utils.modeling import train_models
 st.title("📈 Final Predictions")
 
 train_df, test_df, _ = load_datasets()
+
 X_train, y_r, y_f, X_test, preprocessor = prepare_training_data(train_df, test_df)
 results = train_models(X_train, y_r, y_f, preprocessor)
 
