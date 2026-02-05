@@ -158,12 +158,15 @@ The modular `utils/` package makes enhancements straightforward.
 
 ---
 
-## 📜 License
+## 🧠 Author
 
-This project is released under the MIT License.
+Developed by **Travis Daily**  
+Founder & Creative Director — NovaVoro Interactive  
+
+Data science, analytics, and interactive systems design.
 
 ---
 
-## 🙌 Acknowledgments
+## 📜 License
 
-This application is a Streamlit conversion of a full machine learning notebook, restructured for clarity, modularity, and real‑world usability.
+This project is released under the MIT License.
