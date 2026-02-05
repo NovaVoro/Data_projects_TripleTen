@@ -82,6 +82,7 @@ flowchart TB
 ```bash
 git clone https://github.com/yourusername/video_game_sales_app.git
 cd video_game_sales_app
+```
 
 ## 🛠 Installation & Setup
 
@@ -93,61 +94,67 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 .\venv\Scripts\activate
 venv\Scripts\activate.bat
 pip install -r requirements.txt
+```
 
 ## ▶️ Running the App
+
 ### Option A — Double-click the launcher
 
 Simply run:
 
+```
 run_app.bat
+```
 
 ### Option B — Manual launch
 
+```
 streamlit run app.py
+```
 
 The app will open automatically in your browser at:
+
+```
 http://localhost:8501
+```
+
+---
 
 ## 📊 Dataset
 
 The dataset includes:
 
-Game titles
+- Game titles  
+- Platforms  
+- Release years  
+- Genres  
+- Regional sales (NA, EU, JP, Other)  
+- Critic and user scores  
+- ESRB ratings  
 
-Platforms
+A `games.csv` file must be present in the project root.
 
-Release years
-
-Genres
-
-Regional sales (NA, EU, JP, Other)
-
-Critic and user scores
-
-ESRB ratings
-
-A games.csv file must be present in the project root.
+---
 
 ## 📘 Technologies Used
 
-Python 3.x
+- Python 3.x  
+- Streamlit  
+- Pandas / NumPy  
+- Seaborn / Matplotlib  
+- SciPy  
+- scikit-learn  
 
-Streamlit
-
-Pandas / NumPy
-
-Seaborn / Matplotlib
-
-SciPy
-
-scikit-learn
+---
 
 ## 🧠 Author
 
-Developed by Travis Daily
-Founder & Creative Director — NovaVoro Interactive
+Developed by **Travis Daily**  
+Founder & Creative Director — NovaVoro Interactive  
 
 Data science, analytics, and interactive systems design.
+
+---
 
 ## 📄 License
 
