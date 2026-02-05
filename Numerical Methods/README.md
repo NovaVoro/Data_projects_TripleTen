@@ -8,7 +8,7 @@ This project converts a full Jupyter‑based ML pipeline into a clean, modular, 
 ## 🌟 Features
 
 ### ✔ Built‑in Sample Dataset
-The app loads a prepackaged dataset from `data/sample_car_data.csv`, ensuring the dashboard runs instantly with no user uploads required.
+The app loads a prepackaged dataset from `data/car_data.csv`, ensuring the dashboard runs instantly with no user uploads required.
 
 ### ✔ Complete ML Workflow
 The dashboard implements the full modeling pipeline:
