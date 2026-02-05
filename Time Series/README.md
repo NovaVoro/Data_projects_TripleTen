@@ -158,7 +158,17 @@ A clear, actionable roadmap using the “Fix X using Y to achieve Z” structure
 
 ---
 
-## 👥 Contributors
+---
 
-- **Travis Daily** — Developer, ML Engineer, Full-stack integration  
-- **Microsoft Copilot** — AI assistant for architecture, debugging, and implementation support  
+## 🧠 Author
+
+Developed by **Travis Daily**  
+Founder & Creative Director — NovaVoro Interactive  
+
+Data science, analytics, and interactive systems design.
+
+---
+
+## 📄 License
+
+This project is intended for educational and portfolio use.
